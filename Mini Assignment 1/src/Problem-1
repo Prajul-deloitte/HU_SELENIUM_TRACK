@@ -1,0 +1,15 @@
+XPATHS
+
+Problem-1
+
+1.PHPTRAVELS Logo -> //img[@src='https://phptravels.net/api//uploads/global/logo.png']
+2.HOME -> //input[@class=' waves-effect']
+3.Flights -> //a[contains(@href,'https://ww.phptravels.net/flights') and @title='home']
+4.Tours -> //a[contains(@href,'https://ww.phptravels.net/tours') and @title='home']
+5.Company -> //a[contains(@href,'company') and @class='waves-effect']
+6.Signup Button -> //input[class='theme-btn theme-btn-small waves-effect']
+7.Login Button -> //input[class='theme-btn theme-btn-small theme-btn-transparent ml-1 waves-effect']
+8.Agents Drop down -> //input[type='button' and class='dropdown-menu']
+
+Problem-2
+Calendar icon -> //span[@class='la la-calendar form-icon']/ancestor::div
